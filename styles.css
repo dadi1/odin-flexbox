@@ -30,7 +30,7 @@ body{
     color:#f9f9f9;
     text-decoration: none;
     gap: 15px;
-    margin-right: 90px;
+    margin-right: 120px;
 }
 
 ul{
@@ -48,35 +48,56 @@ li {
     margin-bottom: 10px;
     align-items: center;
     justify-content: space-between;
+    padding-bottom:60px;
 }
 
 .text{ 
+    margin-left: 90px;
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-right:25px;
+    text-align:left;
+    margin-top:45px;
 }
 
 .main-text{
-    width: 48px;
+    font-size: 20px;
     font-weight: bold;
-    color:#F9FAF8
+    color:#F9FAF8;
+    width:200px;
 }
 
 .sub-text{
-    width: 18px;
+    font-size: 10px;
     color:#e5e7eb;
+    font-weight: lighter;
+}
+
+.button1{
+    margin-left: -160px;
+    margin-top: 5px;
 }
 
 button{
     background-color:#3882f6 ;
+    font-size: 10px;
     color:white;
-    border-radius: 10px;
+    border-radius: 5px;
     margin:0;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
-.intro-image-message{
+#noimage {
     color:white;
-    padding-block:grey;
+    background-color:grey;
+    margin-right:120px;
+    font-size:10px;
+    padding: 30px 110px;
+    margin-top:45px;
 }
 
 .main{
@@ -84,11 +105,12 @@ button{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top:20px;
 }
 
 .main-tittle{
-    font-size: 36px;
-    font-weight: extra-bold;
+    font-size: 20px;
+    font-weight: bold;
     color: #1f2937;
 }
 
