@@ -46,6 +46,8 @@ li {
     background-color:#1f2937;
     margin-top:0;
     margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .text{ 
@@ -68,8 +70,13 @@ li {
 button{
     background-color:#3882f6 ;
     color:white;
-    border-radius: 5px;
+    border-radius: 10px;
     margin:0;
+}
+
+.intro-image-message{
+    color:white;
+    padding-block:grey;
 }
 
 .main{
